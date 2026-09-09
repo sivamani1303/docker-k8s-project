@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: website
-          image: docker-k8s-website:v1
+          image: docker-k8s-website:v2
           imagePullPolicy: Never
           ports:
             - containerPort: 80

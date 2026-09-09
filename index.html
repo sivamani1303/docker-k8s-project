@@ -3,38 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Docker + Kubernetes</title>
+    <title>Simple Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <div class="container">
+    <header>
+        <h1>My Simple Website</h1>
+        <p>Welcome to my website!</p>
+    </header>
 
-        <h1>🚀 Docker + Kubernetes</h1>
+    <main>
+        <section class="card">
+            <h2>Hello 👋</h2>
+            <p>This is a simple website built using HTML, CSS, and JavaScript.</p>
 
-        <p>
-            Welcome to my containerized website!
-        </p>
-
-        <div class="card">
-            <h2>DevOps Project</h2>
-
-            <p>
-                This website is running inside a Docker container
-                and will be deployed using Kubernetes.
-            </p>
-
-            <button onclick="showMessage()">
-                Click Me
-            </button>
+            <button id="myButton">Click Me</button>
 
             <p id="message"></p>
-        </div>
+        </section>
+    </main>
 
-    </div>
+    <footer>
+        <p>&copy; 2026 My Simple Website</p>
+    </footer>
 
     <script src="script.js"></script>
-
 </body>
 </html>
